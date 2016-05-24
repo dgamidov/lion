@@ -19,6 +19,12 @@ defmodule Lion.Router do
     get "/", PageController, :index
   end
 
+  scope "/auth", Authex do
+    pipe_through :browser # Use the default browser stack
+
+    resources "/users", UserController
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", Lion do
   #   pipe_through :api

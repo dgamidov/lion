@@ -39,3 +39,12 @@ config :lion, Lion.Repo,
   database: "lion_dev",
   hostname: "localhost",
   pool_size: 10
+
+# Configure your database
+config :authex, Authex.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: "authex",
+  password: "p5BnZs9y1Q5u744GJO48",
+  database: "authex_dev",
+  hostname: "localhost",
+  pool_size: 10
