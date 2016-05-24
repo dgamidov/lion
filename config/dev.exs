@@ -34,8 +34,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :lion, Lion.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "lion",
+  password: "Te4ETGEVpr9q9y8sGK07",
   database: "lion_dev",
   hostname: "localhost",
   pool_size: 10
