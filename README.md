@@ -4,6 +4,7 @@ To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+  * Create and migrate Authex database with `mix ecto.create -r Authex.Repo && mix ecto.migrate -r Authex.Repo`
   * Install Node.js dependencies with `npm install`
   * Start Phoenix endpoint with `mix phoenix.server`
 
